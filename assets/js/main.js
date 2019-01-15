@@ -338,4 +338,11 @@
 
 						});
 
+						// stretch attempt. Hides any img tag upon click
+						$(document).ready(function(){
+							$("img").click(function(){
+								  $(this).hide();
+						  });
+					  });
+
 })(jQuery);
